@@ -1,12 +1,7 @@
 fun main(){
-    var a = 5
-    val b= 3.0
+  val names = arrayOf("Tijil", "Mom", "Dad")
 
-    println("a + b is ${a + b}")
-    println("a - b is ${a - b}")
-    println("a * b is ${a * b}")
-    println("a / b is ${a / b}")
-    println("a % b is ${a % b}")
 
-    println(" (2 + 2) x 3 = ${(2 + 2) * 3}")
+    println("Number of Elements = ${names.size}")
+    println("First Element: ${names[0]}")
 }
